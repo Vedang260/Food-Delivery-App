@@ -106,7 +106,25 @@ body{
     font-size: 20px;
     line-height: 1.6;
     color: #fcb5b5;
+}
 
+.btn-primary{
+    margin-left: 225px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color:#390303;
+    background-color: #C1272D;
+    border-radius: 10px;
+    border-color: #e64703;
+}
+
+.btn-primary:hover{
+    background-color:#e05156;
+    transition: all 0.3 ease-in-out;
+    color:#FDF3E7;
+    border-color: #220708;
 }
 
 /* Right Side Carousel */
@@ -127,4 +145,52 @@ body{
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(100%);
+}
+.card {
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column; /* Makes sure content is arranged vertically */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Ensures all cards have equal height */
+    justify-content: space-between; /* Pushes button to the bottom */
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    flex-grow: 1; /* Allows text to take available space without resizing card */
+}
+
+.card-body .btn-primary {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #E63946;
+    border: none;
+}
+
+.card-body .btn-primary:hover {
+    background-color: #C5273F;
 }
