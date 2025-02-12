@@ -1,0 +1,361 @@
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .heading {
+        height: 60px;
+    }
+
+    .title {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    .navbar {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding-top: 80px;
+    }
+
+    .content, .images {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .greeting {
+        font-size: 30px;
+    }
+
+    .greeting span {
+        font-size: 40px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .btn-primary {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .carousel-inner img {
+        height: 300px;
+    }
+
+    .card {
+        height: 350px;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+
+    .card-body .btn-primary {
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .heading {
+        height: 70px;
+    }
+
+    .title {
+        font-size: 28px;
+        padding-left: 30px;
+    }
+
+    .navbar {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding-top: 90px;
+    }
+
+    .content, .images {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .greeting {
+        font-size: 35px;
+    }
+
+    .greeting span {
+        font-size: 50px;
+    }
+
+    .slogan {
+        font-size: 22px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .btn-primary {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .carousel-inner img {
+        height: 400px;
+    }
+
+    .card {
+        height: 400px;
+    }
+
+    .card-img-top {
+        height: 250px;
+    }
+
+    .card-body .btn-primary {
+        font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 768px and up) */
+@media only screen and (min-width: 769px) {
+    .heading {
+        height: 75px;
+    }
+
+    .title {
+        font-size: 32px;
+        padding-left: 50px;
+    }
+
+    .navbar {
+        font-size: 17px;
+        margin-right: 30px;
+    }
+
+    .container {
+        flex-direction: row;
+        height: 1000px;
+        padding-top: 100px;
+    }
+
+    .content, .images {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .greeting {
+        font-size: 40px;
+    }
+
+    .greeting span {
+        font-size: 65px;
+    }
+
+    .slogan {
+        font-size: 25px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .btn-primary {
+        margin-left: 225px;
+        width: auto;
+    }
+
+    .carousel-inner img {
+        height: 500px;
+    }
+
+    .card {
+        height: 450px;
+    }
+
+    .card-img-top {
+        height: 250px;
+    }
+
+    .card-body .btn-primary {
+        font-size: 16px;
+    }
+}
+
+/* Color changes based on screen sizes */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #f0f0f0;
+    }
+
+    .heading {
+        background-color: #ff6347;
+    }
+
+    .title {
+        color: #fff;
+    }
+
+    .navbar a {
+        color: #fff;
+    }
+
+    .container {
+        background-color: #fff;
+    }
+
+    .greeting {
+        color: #333;
+    }
+
+    .greeting span {
+        color: #ff6347;
+    }
+
+    .slogan {
+        color: #ff4500;
+    }
+
+    .description {
+        color: #555;
+    }
+
+    .btn-primary {
+        background-color: #ff6347;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background-color: #ff4500;
+    }
+
+    .card-body .btn-primary {
+        background-color: #ff6347;
+    }
+
+    .card-body .btn-primary:hover {
+        background-color: #ff4500;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    body {
+        background-color: #e0e0e0;
+    }
+
+    .heading {
+        background-color: #ff4500;
+    }
+
+    .title {
+        color: #fff;
+    }
+
+    .navbar a {
+        color: #fff;
+    }
+
+    .container {
+        background-color: #fff;
+    }
+
+    .greeting {
+        color: #333;
+    }
+
+    .greeting span {
+        color: #ff4500;
+    }
+
+    .slogan {
+        color: #ff6347;
+    }
+
+    .description {
+        color: #555;
+    }
+
+    .btn-primary {
+        background-color: #ff4500;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background-color: #ff6347;
+    }
+
+    .card-body .btn-primary {
+        background-color: #ff4500;
+    }
+
+    .card-body .btn-primary:hover {
+        background-color: #ff6347;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    body {
+        background-color: #d0d0d0;
+    }
+
+    .heading {
+        background-color: #C1272D;
+    }
+
+    .title {
+        color: #FFD700;
+    }
+
+    .navbar a {
+        color: #FDF3E7;
+    }
+
+    .container {
+        background-color: #141001;
+    }
+
+    .greeting {
+        color: #f7e162;
+        font-size: 40px;
+    }
+
+    .greeting span {
+        color: #FFD700;
+    }
+
+    .slogan {
+        color: #fe3002;
+    }
+
+    .description {
+        color: #fcb5b5;
+    }
+
+    .btn-primary {
+        background-color: #C1272D;
+        color: #390303;
+    }
+
+    .btn-primary:hover {
+        background-color: #e05156;
+    }
+
+    .card-body .btn-primary {
+        background-color: #E63946;
+    }
+
+    .card-body .btn-primary:hover {
+        background-color: #C5273F;
+    }
+}
